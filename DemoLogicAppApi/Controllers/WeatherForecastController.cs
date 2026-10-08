@@ -30,11 +30,11 @@ public class WeatherForecastController : ControllerBase
         .ToArray();
     }
     
-      [HttpGet("{id}")]
+      /* [HttpGet("{id}")]
     public IActionResult Get(int id)
     {
         return Ok("Welcome to App");
         
-    }
+    } */
  
 }
